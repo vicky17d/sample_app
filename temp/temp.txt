@@ -1,0 +1,45 @@
+2012-05-09T03:15:05+00:00 heroku[slugc]: Slug compilation started
+2012-05-09T03:16:14+00:00 heroku[api]: Release v5 created by vicky17d@gmail.com
+2012-05-09T03:16:14+00:00 heroku[api]: Deploy a50eba9 by vicky17d@gmail.com
+2012-05-09T03:16:14+00:00 heroku[slugc]: Slug compilation finished
+2012-05-13T02:35:44+00:00 heroku[slugc]: Slug compilation started
+2012-05-13T02:36:48+00:00 heroku[api]: Release v6 created by vicky17d@gmail.com
+2012-05-13T02:36:48+00:00 heroku[api]: Deploy deb6772 by vicky17d@gmail.com
+2012-05-13T02:36:48+00:00 heroku[slugc]: Slug compilation finished
+2012-05-13T02:37:13+00:00 heroku[web.1]: Unidling
+2012-05-13T02:37:13+00:00 heroku[web.1]: State changed from down to created
+2012-05-13T02:37:13+00:00 heroku[web.1]: State changed from created to starting
+2012-05-13T02:37:15+00:00 heroku[web.1]: Starting process with command `bundle exec rails server -p 27520`
+2012-05-13T02:37:18+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2012-05-13T02:37:18+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2012-05-13T02:37:18+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2012-05-13T02:37:20+00:00 app[web.1]: [2012-05-13 02:37:20] INFO  WEBrick 1.3.1
+2012-05-13T02:37:20+00:00 app[web.1]: [2012-05-13 02:37:20] INFO  ruby 1.9.2 (2011-07-09) [x86_64-linux]
+2012-05-13T02:37:20+00:00 app[web.1]: [2012-05-13 02:37:20] INFO  WEBrick::HTTPServer#start: pid=1 port=27520
+2012-05-13T02:37:20+00:00 heroku[web.1]: State changed from starting to up
+2012-05-13T02:37:21+00:00 app[web.1]: => Booting WEBrick
+2012-05-13T02:37:21+00:00 app[web.1]: => Rails 3.2.3 application starting in production on http://0.0.0.0:27520
+2012-05-13T02:37:21+00:00 app[web.1]: => Call with -d to detach
+2012-05-13T02:37:21+00:00 app[web.1]: => Ctrl-C to shutdown server
+2012-05-13T02:37:21+00:00 app[web.1]: Started GET "/" for 67.164.111.189 at 2012-05-13 02:37:21 +0000
+2012-05-13T02:37:21+00:00 app[web.1]: 
+2012-05-13T02:37:21+00:00 app[web.1]: 
+2012-05-13T02:37:22+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2012-05-13T02:37:22+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (9.9ms)
+2012-05-13T02:37:23+00:00 app[web.1]: Completed 500 Internal Server Error in 1021ms
+2012-05-13T02:37:23+00:00 app[web.1]: ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+2012-05-13T02:37:23+00:00 app[web.1]: Load path: /app
+2012-05-13T02:37:23+00:00 app[web.1]:     4:   <title><%= full_title(yield(:title)) %></title>
+2012-05-13T02:37:23+00:00 app[web.1]: 
+2012-05-13T02:37:23+00:00 app[web.1]:     6:   <%= javascript_include_tag "application" %>
+2012-05-13T02:37:23+00:00 app[web.1]: 
+2012-05-13T02:37:23+00:00 app[web.1]:   (in /app/app/assets/stylesheets/application.css)):
+2012-05-13T02:37:23+00:00 app[web.1]:     2: <html>
+2012-05-13T02:37:23+00:00 app[web.1]:     5:   <%= stylesheet_link_tag    "application", media: "all" %>
+2012-05-13T02:37:23+00:00 app[web.1]:   app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___4454861912302262101_41904740'
+2012-05-13T02:37:23+00:00 app[web.1]:     3: <head>
+2012-05-13T02:37:23+00:00 app[web.1]:     7:   <%= csrf_meta_tags %>
+2012-05-13T02:37:23+00:00 app[web.1]:     8:   <%= render 'layouts/shim' %>
+2012-05-13T02:37:23+00:00 app[web.1]: 
+2012-05-13T02:37:23+00:00 heroku[router]: GET gentle-light-8765.herokuapp.com/ dyno=web.1 queue=0 wait=0ms service=1808ms status=500 bytes=643
+2012-05-13T02:37:26+00:00 heroku[router]: GET gentle-light-8765.herokuapp.com/favicon.ico dyno=web.1 queue=0 wait=0ms service=39ms status=200 bytes=0
