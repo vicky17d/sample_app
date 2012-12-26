@@ -104,4 +104,15 @@ describe "when email address is already taken" do
 
     it { should_not be_valid }
   end
+
+ describe "email addrss with mixed case" do
+	let(:mixed_case_email) { "Foo@EXAmpLE.cOM" }
+
+	it "should be saved as all lower-case" do
+	 @user.email = mixed_case_email
+	 @user.save
+ 	 @user.reload.email.should == mixed_case_email.downcase
+	end
+ end
 end
+
