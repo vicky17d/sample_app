@@ -21,10 +21,10 @@ describe "User pages" do
 
   describe "signup" do
     before { visit signup_path }
-    print("////////////############\n")    
-    print("////////////############\n") 
-    print("////////////############\n")    
-    print("////////////############\n")    
+#    print("////////////############\n")    
+#    print("////////////############\n") 
+#    print("////////////############\n") 
+#    print("////////////############\n") 
     let(:submit) { "Create my account" }
   
   describe "with invalid information" do
